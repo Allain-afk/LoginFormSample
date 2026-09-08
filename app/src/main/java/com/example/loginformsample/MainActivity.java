@@ -48,13 +48,13 @@ public class MainActivity extends AppCompatActivity {
         String password = etPassword.getText().toString().trim();
 
         // Sample authentication validation logic
-        if ("validUser".equals(username) && "securePassword123".equals(password)) {
+        if ("allainralphlegaspi@gmail.com".equals(username) && "AllainPassword123".equals(password)) {
             tvErrorMessage.setVisibility(View.GONE);
-            tvWelcome.setText("Welcome, " + username + "!");
+            tvWelcome.setText(getString(R.string.welcome_message, username));
             tvWelcome.setVisibility(View.VISIBLE);
         } else {
             tvWelcome.setVisibility(View.GONE);
-            tvErrorMessage.setText("Invalid username or password.");
+            tvErrorMessage.setText(R.string.error_invalid_credentials);
             tvErrorMessage.setVisibility(View.VISIBLE);
         }
     }

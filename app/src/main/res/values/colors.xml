@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Light Theme Colors -->
+    <color name="primary_light">#4F46E5</color>
+    <color name="on_primary_light">#FFFFFF</color>
+    <color name="primary_container_light">#E0E7FF</color>
+    <color name="on_primary_container_light">#1E1B4B</color>
+
+    <color name="background_light">#F8FAFC</color>
+    <color name="on_background_light">#0F172A</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="on_surface_light">#0F172A</color>
+    <color name="on_surface_variant_light">#64748B</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="primary_dark">#818CF8</color>
+    <color name="on_primary_dark">#1E1B4B</color>
+    <color name="primary_container_dark">#312E81</color>
+    <color name="on_primary_container_dark">#E0E7FF</color>
+
+    <color name="background_dark">#0F172A</color>
+    <color name="on_background_dark">#F8FAFC</color>
+    <color name="surface_dark">#1E293B</color>
+    <color name="on_surface_dark">#F8FAFC</color>
+    <color name="on_surface_variant_dark">#94A3B8</color>
+
+    <!-- Status & Feedback Colors -->
+    <color name="error_color">#DC2626</color>
+    <color name="error_container_light">#FEE2E2</color>
+    <color name="on_error_container_light">#991B1B</color>
+    <color name="success_color">#16A34A</color>
+    <color name="success_container_light">#DCFCE7</color>
+    <color name="on_success_container_light">#166534</color>
+
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

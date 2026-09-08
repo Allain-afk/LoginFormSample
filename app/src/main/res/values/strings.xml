@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">LoginFormSample</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Please sign in to your account</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Sign In</string>
+    <string name="error_invalid_credentials">Invalid username or password.</string>
+    <string name="welcome_message">Welcome, %1$s!</string>
 </resources>
