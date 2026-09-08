@@ -8,9 +8,9 @@ Android login form with automated UI tests using **Appium 2.x**, **Java**, and *
 
 | Test | Inputs | Expected |
 | :--- | :--- | :--- |
-| **TC1** – Correct Login | `validUser` / `securePassword123` | ✅ Welcome message shown |
-| **TC2** – Wrong Username | `wrongUser` / `securePassword123` | ❌ Error message shown |
-| **TC3** – Wrong Password | `validUser` / `wrongPassword` | ❌ Error message shown |
+| **TC1** – Correct Login | `allainralphlegaspi@gmail.com` / `AllainPassword123` | ✅ Welcome message shown |
+| **TC2** – Wrong Username | `wronguser@gmail.com` / `AllainPassword123` | ❌ Error message shown |
+| **TC3** – Wrong Password | `allainralphlegaspi@gmail.com` / `wrongPassword` | ❌ Error message shown |
 
 ---
 
